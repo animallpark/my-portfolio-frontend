@@ -1,0 +1,198 @@
+.outer {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: auto;
+  margin-top: 50px;
+  height: 530px;
+  padding: 20px;
+}
+
+
+.border {
+  justify-content: center;
+  width: 200%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  height: 500px;
+  width: auto;
+  align-items: center;
+}
+
+.middle-tittle {
+  font-size: 80px;
+  font-weight: 600;
+}
+
+
+
+.myntra {
+  padding-top: 30px;
+  width: 300px;
+  padding-bottom: 20px;
+}
+
+.calc {
+  width: 220px;
+  text-decoration: none;
+  padding: none;
+  justify-content: flex-start;
+  display: flex;
+}
+
+.game {
+  width: 160px;
+  padding-bottom: 15px;
+}
+
+.projects {
+  text-align: center;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(245, 65, 0);
+  width: auto;
+  align-items: center;
+  margin: 20px;
+  height: auto;
+  text-decoration: none;
+  --tw-bg-opacity: 20;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  text-decoration: none;
+  flex-direction: column;
+}
+
+.description {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: left;
+  font-size: 10px;
+  color: black;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.title {
+  text-decoration: none;
+  color: rgb(245, 65, 0);
+}
+
+.title:hover {
+  color: #a0d1c1;
+  cursor: pointer;
+}
+
+
+
+@media only screen and (min-width: 165.98px) and (max-width: 575.98px) {
+  .outer {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    padding: 10px;
+  }
+
+  .border {
+    justify-content: center;
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    width: auto;
+    align-items: center;
+  }
+
+  .projects {
+    text-align: center;
+    font-size: 20px;
+    width: 250px;
+    text-decoration: none;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+  }
+
+  .middle-tittle {
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  .game {
+    width: 130px;
+    padding-bottom: 15px;
+  }
+
+  .myntra {
+    padding-top: 10px;
+    width: 200px;
+    padding-bottom: 20px;
+  }
+
+}
+
+@media only screen and (min-width: 575.99px) and (max-width: 960.98px) {
+  .border {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    width: auto;
+    align-items: center;
+  }
+
+  .outer {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    padding: 10px;
+  }
+
+  .projects {
+    text-align: center;
+    font-size: 20px;
+    width: 450px;
+    text-decoration: none;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+  }
+
+  .game {
+    width: 200px;
+    padding-bottom: 15px;
+  }
+
+  .myntra {
+    padding-top: 10px;
+    width: 280px;
+    padding-bottom: 20px;
+  }
+
+  .calc {
+    width: 250px;
+    text-decoration: none;
+
+  }
+
+
+  .middle-tittle {
+    font-size: 80px;
+    font-weight: 600;
+  }
+}

@@ -1,0 +1,121 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  /* line-height: 3rem; */
+  justify-content: center;
+  text-align: center;
+}
+
+.upper {
+  height: 13rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  /* background-color: rgb(59, 58, 58); */
+  background-image: linear-gradient(270deg, #42E695 10%, #3bb2b8 90%);
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 300;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* color: aliceblue; */
+  color: black;
+}
+
+.lower {
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  text-align: center;
+  /* background-color: hsl(120, 34%, 27%); */
+  background: linear-gradient(270deg, #42E695 10%, #3bb2b8 90%);
+  /* background: rgb(59, 58, 58); */
+  color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer-logo {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  font-size: 40px;
+  color: black;
+  /* width: 50px; */
+  /* justify-content: space-between; */
+}
+
+.quick-links {
+  display: flex;
+  font-weight: 500;
+  gap: 25px;
+  justify-content: center;
+}
+
+.details a2:hover {
+  cursor: pointer;
+}
+
+.details a1 span {
+  font-size: 16px;
+}
+
+
+
+.details {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-size: 17px;
+  /* color: tan; */
+  color: black;
+  justify-content: center;
+}
+
+.lower a2 {
+  font-size: 14px;
+  color: white;
+}
+
+.lower a1 {
+  font-size: 35px;
+  /* color: gray; */
+  cursor: pointer;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo:hover {
+  cursor: pointer;
+  color: cornflowerblue;
+  text-decoration: none;
+}
+
+.links:hover {
+  cursor: pointer;
+  font-size: 21px;
+  color: black;
+}
+
+.links:active {
+  color: white;
+}
+
+.lower a1:hover {
+  background: linear-gradient(270deg, #184e68 100%, #57ca85 0%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 35px;
+}
+
+.logo {
+  text-decoration: none;
+  color: black;
+}

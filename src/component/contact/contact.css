@@ -1,0 +1,154 @@
+.contact {
+  justify-content: center;
+  display: flex;
+  padding-top: 30px;
+  width: auto;
+  height: 530px;
+  padding-bottom: 30px;
+  background-image: linear-gradient(270deg, #DF8908 -5.09%, #B415FF 106.28%);
+  /* background: linear-gradient(270deg, #42E695 10%, #3bb2b8 90%); */
+}
+
+
+.form {
+  border: 0.1px solid black;
+  border-radius: 10px;
+  /* border-width: 50px; */
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 500px;
+  width: 60%;
+  background-color: white;
+}
+
+.touch {
+  display: flex;
+  flex-direction: column;
+  font-size: 42px;
+  font-weight: 580;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  gap: 15px;
+  justify-content: center;
+}
+
+.input-details {
+  display: flex;
+  padding-top: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+  padding-bottom: 10px;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.touch-details {
+  display: flex;
+  font-weight: 200;
+  color: rgb(63, 70, 82);
+  font-size: 20px;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+
+
+
+.message-container {
+  width: 80%;
+  font-size: 15px;
+  height: 6rem;
+  padding: 8px;
+  border: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 5px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
+.input-container {
+  width: 80%;
+  height: 2.2rem;
+  border: none;
+  font-size: 15px;
+  padding-left: 8px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 5px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
+.inputs-type {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  padding-left: 40px;
+  /* font-size: 20px; */
+  padding-right: 40px;
+}
+
+.button {
+  width: 150px;
+  display: flex;
+  height: 2.5rem;
+  align-items: center;
+  margin-left: 40px;
+  text-align: center;
+  font-weight: 400;
+  border-radius: 5px;
+  border: none;
+  font-size: 17px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: aquamarine;
+  justify-content: center;
+}
+
+
+@media only screen and (min-width: 165.98px) and (max-width: 575.98px) {
+  .form {
+    border: 0.1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    width: auto;
+    margin: 0 15px;
+    background-color: white;
+  }
+
+  .button {
+    padding: 5px;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-size: 12px;
+  }
+
+}
+
+@media only screen and (min-width: 575.99px) and (max-width: 991.98px) {
+  .form {
+    border: 0.1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    width: 500px;
+    margin: 0 15px;
+    background-color: white;
+  }
+
+}
