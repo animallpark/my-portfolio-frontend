@@ -7,6 +7,7 @@ function Contact() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+  const [loading, setLoading] = useState(false)
 
 
   // Handle form submission
@@ -14,8 +15,10 @@ function Contact() {
     e.preventDefault();
     const newUser = { name, email, message };
     try {
+      setLoading(true)
       const response = await axios.post('https://portfolio-backend-sooty-zeta.vercel.app/register', newUser);
       setUsers([...users, response.data]);
+      setLoading(false)
       alert("your form has been submitted")
       setName('');
       setEmail('');
@@ -49,7 +52,7 @@ function Contact() {
             <a> Message </a>
             <textarea type="text" rows={3} cols={5} id='message' className='message-container' required value={message} onChange={(e) => setMessage(e.target.value)} />
           </div>
-          <button type='submit' className='button'>Send message</button>
+          <button type='submit' className='button' disabled={loading}>{loading ? "Sending..." : "Send Message"}</button>
         </div>
       </form>
     </div>
