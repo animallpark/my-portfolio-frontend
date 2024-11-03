@@ -99,6 +99,10 @@
   display: none;
 }
 
+.mobile_menu {
+  display: none;
+}
+
 
 
 
@@ -109,8 +113,9 @@
 
   .mobile_menu {
     display: flex;
-    position: sticky;
+    position: fixed;
     top: 2;
+    width: 100%;
     flex-direction: column;
     border: none;
     padding: 5px;
