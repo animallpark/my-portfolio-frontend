@@ -10,7 +10,7 @@ function Footer() {
     <div className='footer'>
       <div className='upper'>
         <div className='footer-logo'>
-          <a href='https://github.com/animallpark' className='logo'><FaGithub /></a>
+          <a href='https://github.com/anujbhattt' className='logo'><FaGithub /></a>
           <a href='https://www.linkedin.com/in/anuj-bhatt-9b9084322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' className='logo'><FaLinkedin /></a>
           <a href='https://www.instagram.com/anuj_bhattt/profilecard/?igsh=cDV6ZDZkaW9odWxu' className='logo'><FaInstagram /></a>
           <a href='mailto:anujb5606@gmail.com' className='logo'><IoMdMail /></a>

@@ -1,5 +1,5 @@
 import "./about.css"
-import image1 from "../../assets/img-3.jpg"
+import image1 from "../../assets/20241113_150332.jpg"
 
 function About() {
   return <>

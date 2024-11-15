@@ -13,7 +13,7 @@ function Projects() {
       <div className='border'>
         <div className='projects'>
           <img src={imag2} className='myntra' alt="image*" />
-          <a className='title'>Myntra-Clone</a>
+          <a className='title' href='https://myntra-clone-vhd9.onrender.com/'>Myntra-Clone</a>
           <a className='description'> A Myntra clone website is an e-commerce platform that mimics the functionality and design of Myntra, focusing on fashion and lifestyle products. </a> <hr /> <hr />
           <a className='description'> Skills Used : React, Express</a>
 

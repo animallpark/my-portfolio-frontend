@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from "../../assets/img-3.jpg"
+import img1 from "../../assets/20241113_150332.jpg"
 import "./home.css"
 import { Link } from "react-scroll"
 import resume from "/my-resume1.pdf"
